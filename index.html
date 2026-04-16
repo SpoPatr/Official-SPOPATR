@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$SPOPATR Official HQ</title>
+    <title>$SPOPATR Official Headquarters</title>
     <style>
         body { 
             background-color: #008080; 
@@ -21,72 +21,87 @@
             background: rgba(0,0,0,0.85); 
             max-width: 450px; 
         }
-        h1 { 
-            color: #FFFF00; 
-            font-size: 28px; 
-            margin-bottom: 5px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
+        h1 { color: #FFFF00; font-size: 28px; margin-bottom: 5px; font-weight: bold; text-transform: uppercase; }
+        
+        .ca-container { margin: 15px 0; }
+        .ca-label { font-size: 11px; color: #FFFF00; font-weight: bold; margin-bottom: 4px; display: block; }
         .ca-box {
-            background: #222;
+            background: #111;
             border: 1px dashed #FFFF00;
             padding: 10px;
-            font-size: 12px;
+            font-size: 10px;
             word-break: break-all;
-            margin: 10px 0;
             color: #FFFF00;
+            font-family: monospace;
+            border-radius: 5px;
         }
-        p { 
-            font-size: 18px; 
-            line-height: 1.5; 
-            margin: 10px 0;
+
+        .about-section {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-size: 13px;
+            line-height: 1.5;
+            border-left: 4px solid #FFFF00;
         }
-        video { 
-            width: 100%; 
-            border-radius: 10px; 
-            border: 2px solid #FFFF00; 
-            margin: 10px 0; 
-        }
+
+        video { width: 100%; border-radius: 10px; border: 2px solid #FFFF00; margin: 10px 0; }
+
+        .btn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 15px; }
         .btn { 
-            background: #FFFF00; 
-            color: black; 
-            padding: 15px; 
-            text-decoration: none; 
-            font-weight: bold; 
-            font-size: 18px;
-            border-radius: 50px; 
-            display: block; 
-            margin-top: 10px;
-            text-transform: uppercase;
+            background: #FFFF00; color: black; padding: 12px; text-decoration: none; 
+            font-weight: bold; font-size: 12px; border-radius: 8px; display: block; text-transform: uppercase; 
         }
-        .btn-dex {
-            background: #121619;
-            color: #3ec6c8;
-            border: 2px solid #3ec6c8;
-        }
+        
+        /* Custom Colors */
+        .btn-main { grid-column: span 2; font-size: 16px; background: #00FF00; }
+        .btn-dex { grid-column: span 2; background: #121619; color: #3ec6c8; border: 1px solid #3ec6c8; }
+        .btn-tg { background: #0088cc; color: white; }
+        .btn-x { background: #000000; color: white; border: 1px solid #fff; }
+        .btn-ig { background: #E1306C; color: white; }
+        .btn-tt { background: #000000; color: white; border: 1px solid #ff0050; }
+        .btn-carrd { grid-column: span 2; background: #fdfdfd; color: #333; }
+        .btn-white { background: #ffffff; color: #000; }
     </style>
 </head>
 <body>
     <div class="box">
         <h1>$SPOPATR HQ 🍍</h1>
         
-        <div class="ca-box">
-            CA: DUXdfhtQRYUAbJeDongKrGvG1JeAxAnkiShpFkkfpump
+        <div class="ca-container">
+            <span class="ca-label">OFFICIAL CONTRACT ADDRESS:</span>
+            <div class="ca-box">DUXdfhtQRYUAbJeDongKrGvG1JeAxAnkiShpFkkfpump</div>
         </div>
         
         <video autoplay loop muted playsinline>
-          <source src="lv_0_20260416221043.mp4" type="video/mp4">
+          <source src="1000001170.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
 
-        <p>Building the most organic movement in Bikini Bottom.</p>
+        <div class="about-section">
+            <strong style="color: #FFFF00;">The Vision</strong><br>
+            $SPOPATR is a community-driven organic token on Solana. We build for the long term, moving away from bots and focusing on a real Diamond Hands squad.
+        </div>
+
+        <div class="btn-grid">
+            <a href="https://pump.fun/coin/DUXdfhtQRYUAbJeDongKrGvG1JeAxAnkiShpFkkfpump" class="btn btn-main">💊 BUY ON PUMPFUN</a>
+            <a href="https://dexscreener.com/solana/3wMLaoJkUoem5Z7WUx1gsLiJBtZ1BzFmprrjRPm7g7D1" class="btn btn-dex">📊 VIEW DEXSCREENER</a>
+            
+            <a href="https://t.me/spopatrsol" class="btn btn-tg">Telegram</a>
+            <a href="https://x.com/SpoPatr" class="btn btn-x">X (Twitter)</a>
+            
+            <a href="https://www.instagram.com/spopatr?igsh=cmx3NGdiNWsyeTVs" class="btn btn-ig">Instagram</a>
+            <a href="https://www.tiktok.com/@spopatr?_r=1&_t=ZS-95aqWPTIhww" class="btn btn-tt">TikTok</a>
+            
+            <a href="https://spopatr.carrd.co" class="btn btn-carrd">🔗 MAIN LANDING PAGE (CARRD)</a>
+            
+            <a href="https://github.com/spopatr/Official-SPOPATR/blob/main/README.md" class="btn btn-white">WhitePaper</a>
+            <a href="https://t.me/spopatrsol" class="btn btn-white">Support</a>
+        </div>
         
-        <a href="https://dexscreener.com/solana/3wMLaoJkUoem5Z7WUx1gsLiJBtZ1BzFmprrjRPm7g7D1" class="btn btn-dex" target="_blank">📊 VIEW ON DEXSCREENER</a>
-        
-        <a href="https://t.me/spopatrsol" class="btn">JOIN OUR TELEGRAM</a>
-        
-        <a href="https://x.com/SpoPatr" class="btn" style="background: #1DA1F2; color: white;">FOLLOW OUR X</a>
+        <p style="font-size: 10px; margin-top: 15px; opacity: 0.7;">&copy; 2026 $SPOPATR - Bikini Bottom Squad</p>
     </div>
 </body>
 </html>
