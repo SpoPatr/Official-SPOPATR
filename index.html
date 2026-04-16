@@ -8,7 +8,7 @@
             background-color: #008080; 
             color: white; 
             text-align: center; 
-            font-family: Arial, Helvetica, sans-serif; /* HURUF STANDAR TEGAK */
+            font-family: Arial, sans-serif; /* HURUF TEGAK STANDAR */
             margin: 0; 
             padding: 15px; 
         }
@@ -24,15 +24,18 @@
         h1 { 
             color: #FFFF00; 
             font-size: 28px; 
-            margin-bottom: 5px;
             font-weight: bold;
+            margin-bottom: 5px;
             text-transform: uppercase;
         }
-        .status-text { 
+        .status-badge { 
             font-size: 16px; 
             color: #00FF00; 
             font-weight: bold; 
-            letter-spacing: 1px;
+            background: rgba(0,255,0,0.15);
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
         }
         p { 
             font-size: 18px; 
@@ -43,7 +46,7 @@
             width: 100%; 
             border-radius: 10px; 
             border: 2px solid #FFFF00; 
-            margin: 10px 0; 
+            margin: 15px 0; 
         }
         .btn { 
             background: #FFFF00; 
@@ -54,23 +57,25 @@
             font-size: 20px;
             border-radius: 50px; 
             display: block; 
-            margin-top: 20px;
+            margin-top: 15px;
+            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
     <div class="box">
         <h1>$SPOPATR HQ 🍍</h1>
-        <p class="status-text">LIQUIDITY STATUS: LOCKING (15.5%)</p>
+        <div class="status-badge">100% ORGANIC MOVEMENT</div>
         
         <video autoplay loop muted playsinline>
           <source src="lv_0_20260416221043.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
 
-        <p>Building the most organic movement in Bikini Bottom. <br>Join the Diamond Hands Squad today!</p>
+        <p>Tired of scams? So are we. <br>We are building a real community through the grind. No paid shills, no hidden wallets.</p>
         
         <a href="https://t.me/spopatrsol" class="btn">JOIN OUR TELEGRAM</a>
+        <a href="https://x.com/SpoPatr" class="btn" style="background: #1DA1F2; color: white; margin-top: 10px;">FOLLOW OUR X</a>
     </div>
 </body>
 </html>
